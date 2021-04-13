@@ -43,6 +43,7 @@ app.post("/student/:id", (req, res) => {
     : data.push(student);
 
   fs.writeFileSync("./db.json", JSON.stringify(data));
+  qq;
   res.send({ student: `Welcome ${name} ID:${id}` });
 });
 

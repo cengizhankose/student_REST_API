@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/cengizhankose/student_REST_API#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "swagger-jsdoc": "6.0.0",
+    "swagger-ui-express": "^4.1.6"
   }
 }

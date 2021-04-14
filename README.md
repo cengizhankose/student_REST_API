@@ -31,6 +31,9 @@ You can try the API on OpenAPI.
 
 ## What the app looks like
 
-![alt text](https://github.com/cengizhankose/react_native_calculator/blob/main/ss.png)
-![alt text](https://github.com/cengizhankose/react_native_calculator/blob/main/ss2.png)
-![alt text](https://github.com/cengizhankose/react_native_calculator/blob/main/ss1.png)
+![alt text](https://github.com/cengizhankose/student_REST_API/blob/master/Screenshot%202021-04-14%20165315.jpg)
+![alt text](https://github.com/cengizhankose/student_REST_API/blob/master/Screenshot%202021-04-14%20165310.jpg)
+![alt text](https://github.com/cengizhankose/student_REST_API/blob/master/Screenshot%202021-04-14%20165305.jpg)
+![alt text](https://github.com/cengizhankose/student_REST_API/blob/master/Screenshot%202021-04-14%20165300.jpg)
+![alt text](https://github.com/cengizhankose/student_REST_API/blob/master/Screenshot%202021-04-14%20165255.jpg)
+![alt text](https://github.com/cengizhankose/student_REST_API/blob/master/Screenshot%202021-04-14%20165230.jpg)

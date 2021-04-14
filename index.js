@@ -128,11 +128,9 @@ app.post("/student/:id", (req, res) => {
     : data.push(student);
 
   fs.writeFileSync("./db.json", JSON.stringify(data));
-  res
-    .status(201)
-    .send({
-      student: `Student named ${name} successfully added with ID:${id}`,
-    });
+  res.status(201).send({
+    student: `Student named ${name} successfully added with ID:${id}`,
+  });
 });
 
 /**
@@ -166,19 +164,29 @@ app.post("/student/:id", (req, res) => {
 app.delete("/student/:id", (req, res) => {
   const { id } = req.params;
 
+  if (!id) {
+    res.status(400).send({ message: "Missing body value" });
+  }
+
   let rawdata = fs.readFileSync("./db.json");
   let data = JSON.parse(rawdata);
 
-  data.filter(function (value, index, arr) {
-    if (value.id === id) {
-      data.splice(index, 1);
-    }
-  });
-  console.log(data);
-  fs.writeFileSync("./db.json", JSON.stringify(data));
-  res.status(204).send({
-    message: `student successfully deleted ID:${id}`,
-  });
+  let student = getStudent(data, id);
+
+  if (student) {
+    data.filter(function (value, index, arr) {
+      if (value.id === id) {
+        data.splice(index, 1);
+      }
+    });
+    console.log(data);
+    fs.writeFileSync("./db.json", JSON.stringify(data));
+    res.status(204).send({
+      message: `student successfully deleted ID:${id}`,
+    });
+  } else {
+    res.status(404).send({ message: "No matching students" });
+  }
 });
 
 /**

@@ -1,1 +1,107 @@
-[{"id":"23","name":"Cengizhan","surname":" KÖSE","classes":["Deneme","Test"],"school":"Eksik"},{"id":"24","name":"Cengizhan","surname":" KÖSE","classes":["Deneme","Test"],"school":"Eksik"},{"id":"25","name":"Cengizhan","surname":" KÖSE","classes":["Deneme","Test"],"school":"Eksik"},{"id":"26","name":"Cengizhan","surname":" KÖSE","classes":["Deneme","Test"],"school":"Eksik"},{"id":"28","name":"Cengizhan","surname":" KÖSE","classes":["Deneme","Test"],"school":"Eksik"},{"id":"29","name":"Abdulkadir","surname":"ERDEM","classes":["xd","xd"],"school":"MAL KADİR"},{"id":"30","name":"Abdulkadir","surname":"ERDEM","classes":["xd","xd"],"school":"MAL KADİR"},{"id":"31","name":"Abdulkadir","surname":"ERDEM","classes":["xd","xd"],"school":"MAL KADİR"},{"id":"31","name":"Abdulkadir","surname":"ERDEM","classes":["xd","xd"],"school":"MAL KADİR"},{"id":"32","name":"Abdulkadir","surname":"ERDEM","classes":["xd","xd"],"school":"MAL KADİR"},{"id":"32","name":"Abdulkadir","surname":"ERDEM","classes":["xd","xd"],"school":"MAL KADİR"},{"id":"32","name":"Abdulkadir","surname":"ERDEM","classes":["xd","xd"],"school":"MAL KADİR"},{"id":"34","name":"Abdulkadir","surname":"ERDEM","classes":["xd","xd"],"school":"MAL KADİR"},{"id":"123","name":"Cengizhan","surname":"KÖSE","classes":["a dersi","b dersi","c dersi"],"school":"istanbulda bir okul"},{"id":"124","name":"Cengizhan","surname":"KÖSE","classes":["a dersi","b dersi","c dersi"],"school":"istanbulda bir okul"}]
+[
+  {
+    "id": "23",
+    "name": "Cengizhan",
+    "surname": " KÖSE",
+    "classes": ["Deneme", "Test"],
+    "school": "Eksik"
+  },
+  {
+    "id": "24",
+    "name": "Cengizhan",
+    "surname": " KÖSE",
+    "classes": ["Deneme", "Test"],
+    "school": "Eksik"
+  },
+  {
+    "id": "25",
+    "name": "Cengizhan",
+    "surname": " KÖSE",
+    "classes": ["Deneme", "Test"],
+    "school": "Eksik"
+  },
+  {
+    "id": "26",
+    "name": "Cengizhan",
+    "surname": " KÖSE",
+    "classes": ["Deneme", "Test"],
+    "school": "Eksik"
+  },
+  {
+    "id": "28",
+    "name": "Cengizhan",
+    "surname": " KÖSE",
+    "classes": ["Deneme", "Test"],
+    "school": "Eksik"
+  },
+  {
+    "id": "29",
+    "name": "Abdulkadir",
+    "surname": "ERDEM",
+    "classes": ["xd", "xd"],
+    "school": "MAL KADİR"
+  },
+  {
+    "id": "30",
+    "name": "Abdulkadir",
+    "surname": "ERDEM",
+    "classes": ["xd", "xd"],
+    "school": "MAL KADİR"
+  },
+  {
+    "id": "31",
+    "name": "Abdulkadir",
+    "surname": "ERDEM",
+    "classes": ["xd", "xd"],
+    "school": "MAL KADİR"
+  },
+  {
+    "id": "31",
+    "name": "Abdulkadir",
+    "surname": "ERDEM",
+    "classes": ["xd", "xd"],
+    "school": "MAL KADİR"
+  },
+  {
+    "id": "32",
+    "name": "Abdulkadir",
+    "surname": "ERDEM",
+    "classes": ["xd", "xd"],
+    "school": "MAL KADİR"
+  },
+  {
+    "id": "32",
+    "name": "Abdulkadir",
+    "surname": "ERDEM",
+    "classes": ["xd", "xd"],
+    "school": "MAL KADİR"
+  },
+  {
+    "id": "32",
+    "name": "Abdulkadir",
+    "surname": "ERDEM",
+    "classes": ["xd", "xd"],
+    "school": "MAL KADİR"
+  },
+  {
+    "id": "34",
+    "name": "Abdulkadir",
+    "surname": "ERDEM",
+    "classes": ["xd", "xd"],
+    "school": "MAL KADİR"
+  },
+  {
+    "id": "123",
+    "name": "Cengizhan",
+    "surname": "KÖSE",
+    "classes": ["a dersi", "b dersi", "c dersi"],
+    "school": "istanbulda bir okul"
+  },
+  {
+    "id": "124",
+    "name": "Cengizhan",
+    "surname": "KÖSE",
+    "classes": ["a dersi", "b dersi", "c dersi"],
+    "school": "istanbulda bir okul"
+  }
+]
